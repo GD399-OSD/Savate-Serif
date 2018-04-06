@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Abreve" format="1">
+  <advance width="730"/>
+  <unicode hex="0102"/>
+  <outline>
+    <contour>
+      <point x="542" y="570" type="line"/>
+      <point x="421" y="570"/>
+      <point x="540" y="570"/>
+      <point x="419" y="570" type="curve"/>
+      <point x="289" y="730" type="line"/>
+      <point x="542" y="730" type="line"/>
+    </contour>
+    <contour>
+      <point x="732" y="0" type="line"/>
+      <point x="631.667" y="0"/>
+      <point x="531.333" y="0"/>
+      <point x="431" y="0" type="curve"/>
+      <point x="431" y="140" type="line"/>
+      <point x="732" y="140" type="line"/>
+    </contour>
+    <contour>
+      <point x="354" y="0" type="line"/>
+      <point x="233" y="0"/>
+      <point x="112" y="0"/>
+      <point x="-9" y="0" type="curve"/>
+      <point x="-9" y="140" type="line"/>
+      <point x="354" y="140" type="line"/>
+    </contour>
+    <contour>
+      <point x="380" y="583" type="line"/>
+      <point x="292" y="330" type="line"/>
+      <point x="475" y="330" type="line"/>
+    </contour>
+    <contour>
+      <point x="598" y="0" type="line"/>
+      <point x="501" y="259" type="line"/>
+      <point x="269" y="259" type="line"/>
+      <point x="183" y="0" type="line"/>
+      <point x="33" y="0" type="line"/>
+      <point x="289" y="730" type="line"/>
+      <point x="412" y="730" type="line"/>
+      <point x="679" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="360" y="779" type="curve" smooth="yes"/>
+      <point x="264" y="779"/>
+      <point x="195" y="834"/>
+      <point x="195" y="960" type="curve"/>
+      <point x="246" y="960" type="line"/>
+      <point x="245" y="889"/>
+      <point x="299" y="866"/>
+      <point x="360" y="866" type="curve" smooth="yes"/>
+      <point x="429" y="866"/>
+      <point x="486" y="889"/>
+      <point x="485" y="960" type="curve"/>
+      <point x="535" y="960" type="line"/>
+      <point x="535" y="834"/>
+      <point x="462" y="779"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>202</integer>
+            <key>width</key>
+            <integer>76</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>779</integer>
+            <key>width</key>
+            <integer>87</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>195</integer>
+            <key>width</key>
+            <integer>51</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>485</integer>
+            <key>width</key>
+            <integer>50</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

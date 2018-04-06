@@ -1,0 +1,109 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+
+# GSUB 
+
+
+lookup lnumLiningFiguresinLatinlookup0 {
+  lookupflag 0;
+    sub \eight.osf by \eight ;
+    sub \five.osf by \five ;
+    sub \four.osf by \four ;
+    sub \nine.osf by \nine ;
+    sub \one.osf by \one ;
+    sub \seven.osf by \seven ;
+    sub \six.osf by \six ;
+    sub \three.osf by \three ;
+    sub \two.osf by \two ;
+    sub \zero.osf by \zero ;
+} lnumLiningFiguresinLatinlookup0;
+
+lookup onumOldstyleFiguresinLatinlookup1 {
+  lookupflag 0;
+    sub \eight by \eight.osf ;
+    sub \five by \five.osf ;
+    sub \four by \four.osf ;
+    sub \nine by \nine.osf ;
+    sub \one by \one.osf ;
+    sub \seven by \seven.osf ;
+    sub \six by \six.osf ;
+    sub \three by \three.osf ;
+    sub \two by \two.osf ;
+    sub \zero by \zero.osf ;
+} onumOldstyleFiguresinLatinlookup1;
+
+feature lnum {
+
+ script DFLT;
+     language dflt ;
+      lookup lnumLiningFiguresinLatinlookup0;
+
+ script latn;
+     language dflt ;
+      lookup lnumLiningFiguresinLatinlookup0;
+} lnum;
+
+feature onum {
+
+ script DFLT;
+     language dflt ;
+      lookup onumOldstyleFiguresinLatinlookup1;
+
+ script latn;
+     language dflt ;
+      lookup onumOldstyleFiguresinLatinlookup1;
+} onum;
+
+@GDEF_Simple = [\A \AE \AEacute \Aacute \Abreve \Acircumflex \Adieresis \Agrave 
+	\Amacron \Aogonek \Aring \Aringacute \Atilde \B \C \Cacute \Ccaron \Ccedilla 
+	\Ccircumflex \Cdotaccent \D \Dcaron \Dcroat \Delta \E \Eacute \Ebreve \Ecaron 
+	\Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eng \Eogonek \Eth \F \G 
+	\Gbreve \Gcaron \Gcircumflex \Gcommaaccent \Gdotaccent \Germandbls \H \Hbar 
+	\Hcircumflex \I \IJ \Iacute \Ibreve \Icircumflex \Idieresis \Idotaccent \Igrave 
+	\Imacron \Iogonek \Itilde \J \Jcircumflex \K \Kcommaaccent \L \Lacute \Lcaron 
+	\Lcommaaccent \Ldot \Lslash \M \N \Nacute \Ncaron \Ncommaaccent \Ntilde \O \OE 
+	\Oacute \Obreve \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Omega 
+	\Oslash \Oslashacute \Otilde \P \Q \R \Racute \Rcaron \Rcommaaccent \S \Sacute 
+	\Scaron \Scedilla \Schwa \Scircumflex \Scommaaccent \T \Tbar \Tcaron \Tcedilla 
+	\Thorn \U \Uacute \Ubreve \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut 
+	\Umacron \Uogonek \Uring \Utilde \V \W \Wacute \Wcircumflex \Wdieresis \Wgrave \X 
+	\Y \Yacute \Ycircumflex \Ydieresis \Ygrave \Z \Zacute \Zcaron \Zdotaccent \a 
+	\aacute \abreve \acircumflex \acute \acute.case \adieresis \ae \aeacute \agrave 
+	\amacron \ampersand \aogonek \approxequal \aring \aringacute \arrowleft 
+	\arrowright \asciicircum \asciitilde \asterisk \at \atilde \b \backslash \bar 
+	\boum \braceleft \braceright \bracketleft \bracketright \breve \breve.case 
+	\brokenbar \bullet \c \cacute \caron \caron.case \ccaron \ccedilla \ccircumflex 
+	\cdotaccent \cedilla \cent \circumflex \circumflex.case \colon \comma 
+	\commaaccent \copyright \currency \d \dagger \daggerdbl \dcaron \dcroat \degree 
+	\dieresis \dieresis.case \divide \dollar \dotaccent \dotaccent.case \dotlessi 
+	\dotlessj \e \eacute \ebreve \ecaron \ecircumflex \edieresis \edotaccent \egrave 
+	\eight \eight.osf \ellipsis \emacron \emdash \emspace \endash \eng \enspace 
+	\eogonek \equal \eth \euro \exclam \exclamdown \f \five \five.osf \florin \four 
+	\four.osf \g \gbreve \gcaron \gcircumflex \gcommaaccent \gdotaccent \germandbls 
+	\grave \grave.case \greater \greaterequal \guillemotleft \guillemotright 
+	\guilsinglleft \guilsinglright \h \hairspace \hbar \hcircumflex \hungarumlaut 
+	\hungarumlaut.case \hyphen \i \iacute \ibreve \icircumflex \idieresis \igrave 
+	\ij \imacron \iogonek \itilde \j \jcircumflex \k \kcommaaccent \kgreenlandic \l 
+	\lacute \lcaron \lcommaaccent \ldot \less \lessequal \logicalnot \longs \lslash 
+	\m \macron \macron.case \minus \mu \multiply \n \nacute \napostrophe \nbspace 
+	\ncaron \ncommaaccent \nine \nine.osf \notequal \ntilde \numbersign \o \oacute 
+	\obreve \ocircumflex \odieresis \oe \ogonek \ograve \ohungarumlaut \omacron \one 
+	\one.osf \ordfeminine \ordmasculine \oslash \oslashacute \otilde \p \pansements 
+	\paragraph \parenleft \parenright \percent \period \periodcentered 
+	\perthousand \pi \plus \plusminus \poingdroite \poinggauche \q \question 
+	\questiondown \quotedbl \quotedblbase \quotedblleft \quotedblright \quoteleft 
+	\quoteright \quotesinglbase \quotesingle \r \racute \rcaron \rcommaaccent 
+	\registered \ring \ring.case \s \sacute \scaron \scedilla \schwa \scircumflex 
+	\scommaaccent \section \semicolon \seven \seven.osf \six \six.osf \slash \space 
+	\sterling \t \tbar \tcaron \tcedilla \thinspace \thorn \three \three.osf \tilde 
+	\tilde.case \two \two.osf \u \uacute \ubreve \ucircumflex \udieresis \ugrave 
+	\uhungarumlaut \umacron \underscore \uogonek \uring \utilde \v \vtf \w \wacute 
+	\wcircumflex \wdieresis \wech \wgrave \x \y \yacute \ycircumflex \ydieresis \yen 
+	\ygrave \z \zacute \zcaron \zdotaccent \zero \zero.osf ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+

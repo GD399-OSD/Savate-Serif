@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kcommaaccent" format="1">
+  <advance width="630"/>
+  <unicode hex="0136"/>
+  <outline>
+    <contour>
+      <point x="504" y="0" type="line"/>
+      <point x="266" y="333" type="line"/>
+      <point x="151" y="209" type="line"/>
+      <point x="151" y="0" type="line"/>
+      <point x="80" y="0" type="line"/>
+      <point x="80" y="732" type="line"/>
+      <point x="151" y="732" type="line"/>
+      <point x="151" y="409" type="line"/>
+      <point x="431" y="730" type="line"/>
+      <point x="632" y="730" type="line"/>
+      <point x="318" y="390" type="line"/>
+      <point x="593" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="184" y="-210" type="curve"/>
+      <point x="164" y="-196" type="line"/>
+      <point x="218" y="-152"/>
+      <point x="237" y="-106"/>
+      <point x="215" y="-56" type="curve"/>
+      <point x="341" y="-56" type="line"/>
+      <point x="351" y="-119"/>
+      <point x="286" y="-179"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>730</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>80</integer>
+            <key>width</key>
+            <integer>71</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
