@@ -15,7 +15,7 @@
 	<key>com.typemytype.robofont.compileSettings.generateFormat</key>
 	<integer>0</integer>
 	<key>com.typemytype.robofont.compileSettings.path</key>
-	<string>/Users/johnvetter/Desktop/Github/Savate-Serif/src/Savate Serif.otf</string>
+	<string>/Users/johnvetter/Desktop/Github/Savate-Serif/src/SavateSerif.otf</string>
 	<key>com.typemytype.robofont.compileSettings.releaseMode</key>
 	<integer>0</integer>
 	<key>com.typemytype.robofont.foreground.layerStrokeColor</key>
